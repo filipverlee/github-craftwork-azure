@@ -16,8 +16,9 @@ module.exports = async function (context, data) {
       response = await octokit.issues.addLabels({
         owner, 
         repo, 
-        number, 
-        labels: ['enhancement', 'question', 'bug']
+        number,
+        labels: ['enhancement', 'question', 'bug'],
+        body: "Thanks for submitting this issue. We will take a look at it later!"
       })
     }
     context.res = {
