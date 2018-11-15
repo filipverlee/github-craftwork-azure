@@ -182,4 +182,5 @@ Once the pull request is merged and the new version deployed, you will finally s
 - VS CODE functions
 [Create your first function in Azure using Visual Studio Code | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code)
 
-
+###
+TriggerBuild
